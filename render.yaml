@@ -1,0 +1,8 @@
+services:
+  - type: static
+    name: ajmadvocates
+    repo: https://github.com/Hasa1O1/ajmadvocates
+    branch: main
+    buildCommand: npm install && npm run build
+    publishPath: dist
+    plan: free
